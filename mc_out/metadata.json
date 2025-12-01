@@ -1,0 +1,30 @@
+{
+  "cfg": {
+    "S0": 100.0,
+    "K": 100.0,
+    "r": 0.01,
+    "sigma": 0.2,
+    "T": 1.0,
+    "n": 200000,
+    "seed": 2025,
+    "chunk": 50000,
+    "workers": 1,
+    "antithetic": false,
+    "control_variate": false,
+    "importance": false,
+    "mu_tilt": 0.6,
+    "checkpoint": null,
+    "checkpoint_interval_secs": 30,
+    "outdir": "mc_out",
+    "save_samples": false,
+    "quick_test": false,
+    "dry_run": false
+  },
+  "python": "3.13.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "numpy": "2.1.1",
+  "pandas": "2.2.3",
+  "numba": "0.61.0",
+  "timestamp": "2025-12-01 22:18:48",
+  "git_commit": null
+}
